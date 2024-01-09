@@ -1,0 +1,14 @@
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\AdventOfCode4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\AdventOfCode4.AssemblyInfoInputs.cache
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\AdventOfCode4.AssemblyInfo.cs
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\AdventOfCode4.csproj.CoreCompileInputs.cache
+C:\Workbench\AdventOfCode4\AdventOfCode4\bin\Debug\net8.0\AdventOfCode4.exe
+C:\Workbench\AdventOfCode4\AdventOfCode4\bin\Debug\net8.0\AdventOfCode4.deps.json
+C:\Workbench\AdventOfCode4\AdventOfCode4\bin\Debug\net8.0\AdventOfCode4.runtimeconfig.json
+C:\Workbench\AdventOfCode4\AdventOfCode4\bin\Debug\net8.0\AdventOfCode4.dll
+C:\Workbench\AdventOfCode4\AdventOfCode4\bin\Debug\net8.0\AdventOfCode4.pdb
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\AdventOfCode4.dll
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\refint\AdventOfCode4.dll
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\AdventOfCode4.pdb
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\AdventOfCode4.genruntimeconfig.cache
+C:\Workbench\AdventOfCode4\AdventOfCode4\obj\Debug\net8.0\ref\AdventOfCode4.dll

@@ -1,0 +1,12 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0d445353_002D8263_002D409d_002Da713_002D769abb1d6279/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="GetCardNumber" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C836FA4A-BABB-4569-81BB-7AAA11C9A174::net8.0::AdventOfCode4.Tests.ProcessingTests.GetCardNumber&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=3782cfd7_002Dd923_002D4f1a_002Dada2_002Dc53ee0e0dd27/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="GetCardNumber #2" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+  &lt;TestAncestor&gt;&#xD;
+    &lt;TestId&gt;xUnit::C836FA4A-BABB-4569-81BB-7AAA11C9A174::net8.0::AdventOfCode4.Tests.ProcessingTests.ParseLine_CardNumber_EqualOne&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::C836FA4A-BABB-4569-81BB-7AAA11C9A174::net8.0::AdventOfCode4.Tests.ProcessingTests.ParseLine_TargetNumbers_Ok&lt;/TestId&gt;&#xD;
+  &lt;/TestAncestor&gt;&#xD;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
