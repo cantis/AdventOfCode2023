@@ -2,17 +2,18 @@
 
 public class Processing
 {
-    public List<Card> LoadCards()
+    public int ProcessCards()
     {
-        var cards = new List<Card>();
-        var lines = File.ReadAllLines("""C:\\Workbench\\AdventOfCode4\\AdventOfCode4\\Input.txt""");
+        var lines = File.ReadAllLines("""C:\Workbench\AdventOfCode2023\Day4\AdventOfCode4\Input.txt""");
+        var total = 0;
         foreach (var line in lines)
         {
             var card = ParseLine(line);
-            cards.Add(card);
+            var score = ScoreCard(card).Score;
+            total += score;
         }
 
-        return cards;
+        return total;
     }
 
     public Card ParseLine(string line)
@@ -22,7 +23,7 @@ public class Processing
         // change the '|' to a : so we can split on it
         line = line.Replace("|", ":");
 
-        var cardSegments = line.Split(":")[0].Split(" ");
+        var cardSegments = line.Split(":")[0].Split(" ").Where(segment => !string.IsNullOrEmpty(segment)).ToArray();
         result.CardNumber = int.Parse(cardSegments[1]);
 
         var winningSegment = line.Split(":")[1].Trim().Split(" ").Where(segment => !string.IsNullOrEmpty(segment)).ToArray();
@@ -36,23 +37,31 @@ public class Processing
 
     public Card ScoreCard(Card card)
     {
-        var result = 0;
+        var result = new Card();
 
-        // how many numbers in the winning numbers are in the target numbers?
-        var count = card.WinningNumbers.Count(number => card.TargetNumbers.Contains(number));
-        if (count == 0)
+        var matches = card.WinningNumbers.Intersect(card.TargetNumbers).Count();
+
+        switch (matches)
         {
-            result = 0;
+            case 0:
+                result.Score = 0;
+                break;
+            case 1:
+                result.Score = 1;
+                break;
+            case >= 2:
+            {
+                var i = 1;
+                result.Score = 1;
+                while (i < matches)
+                {
+                    result.Score *= 2;
+                    i++;
+                }
+                break;
+            }
         }
-
-        
-
-
-
-
-
-        card.Score = result;
-        return card;
+        return result;
     }
 }
 

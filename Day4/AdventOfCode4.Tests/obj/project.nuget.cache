@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jb2VCOX1ngn4+zIyKouZ55DqFGB/aSng7OcYSfkCc5GDtxGarmEy7EJiDRcTefPC408AWCvp5tiV8aLWSkgJ3g==",
+  "dgSpecHash": "ohWZ7YinjnCxRneGinqp/kD/vsijkJKB/dkvwbBn3u0wK/TiNwThivb8Ib+LHr67V8J72FacNVTeeWSXObzteg==",
   "success": true,
-  "projectFilePath": "C:\\Workbench\\AdventOfCode4\\AdventOfCode4.Tests\\AdventOfCode4.Tests.csproj",
+  "projectFilePath": "C:\\Workbench\\AdventOfCode2023\\Day4\\AdventOfCode4.Tests\\AdventOfCode4.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\evan_\\.nuget\\packages\\coverlet.collector\\6.0.0\\coverlet.collector.6.0.0.nupkg.sha512",
     "C:\\Users\\evan_\\.nuget\\packages\\microsoft.codecoverage\\17.6.0\\microsoft.codecoverage.17.6.0.nupkg.sha512",
